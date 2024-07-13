@@ -14,7 +14,7 @@
   "homepage": "https://github.com/cilly-yllic/gadgetry#readme",
   "license": "MIT",
   "engines": {
-    "node": ">=20.x"
+    "node": "20 || >=22.x"
   },
   "scripts": {
     "prepare": "husky",
