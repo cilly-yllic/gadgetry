@@ -1,6 +1,5 @@
 {
   "reject": [
-    "ts-jest",
     "eslint",
     "@eslint/js",
     "eslint-plugin-unused-imports",
