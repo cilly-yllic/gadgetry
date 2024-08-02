@@ -1,7 +1,7 @@
 {
   "name": "my-gadgetry",
   "type": "module",
-  "version": "1.2.50",
+  "version": "1.2.55",
   "description": "",
   "author": "",
   "repository": {
@@ -55,12 +55,12 @@
     "zx": "^8.1.4"
   },
   "devDependencies": {
-    "@babel/core": "^7.24.9",
-    "@babel/preset-env": "^7.25.0",
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.3",
     "@babel/preset-typescript": "^7.24.7",
     "@eslint/js": "^8.57.0",
     "@types/jest": "^29.5.12",
-    "@types/node": "^22.0.0",
+    "@types/node": "^22.0.2",
     "@typescript-eslint/eslint-plugin": "^7.9.0",
     "@typescript-eslint/parser": "^7.9.0",
     "babel-jest": "^29.7.0",
@@ -75,10 +75,10 @@
     "lint-staged": "^15.2.7",
     "npm-run-all2": "^6.2.2",
     "prettier": "^3.3.3",
-    "ts-jest": "29.2.3",
+    "ts-jest": "29.2.4",
     "ts-node": "^10.9.2",
     "tsc-alias": "^1.8.10",
-    "tsx": "^4.16.2",
+    "tsx": "^4.16.5",
     "typescript": "^5.5.4",
     "typescript-eslint": "^7.18.0"
   },
