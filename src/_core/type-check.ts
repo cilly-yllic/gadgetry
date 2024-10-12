@@ -42,7 +42,7 @@ export const isJson = (str: string): boolean => {
   try {
     const result = JSON.parse(str)
     return isString(result) || isObject(result)
-  } catch (err) {
+  } catch (_e) {
     return false
   }
 }
