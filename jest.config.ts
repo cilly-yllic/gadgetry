@@ -1,7 +1,8 @@
 import type { Config } from 'jest'
 
 const config: Config = {
-  preset: 'ts-jest',
+  // preset: 'ts-jest',
+  preset: 'ts-jest/presets/default-esm', // (node20) SyntaxError: Unexpected token 'export'
   verbose: true,
   silent: false,
   roots: ['<rootDir>/__tests__', '<rootDir>/src'],
